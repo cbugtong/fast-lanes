@@ -1,0 +1,42 @@
+.container {
+    background-color: #9D695A;
+    height: calc(100% - 30px);
+    padding: 5px 10px;
+    margin: 10px 10px;
+    min-width: 350px;
+}
+
+.list {
+    background-color: #9D695A;
+    border: 1px dashed #9D695A;
+    min-height: 350px;
+    height: calc(100vh - 150px);
+    overflow: auto;
+}
+
+.add-button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px;
+}
+
+.add-actions {
+    display: flex;
+}
+.add-actions > input {
+    width: auto;
+    margin: 5px 10px 0 0;
+    border-radius: 5px;
+    color: white;
+    background-color: green;
+    box-shadow: 0;
+}
+
+.add-actions > p {
+    cursor: pointer;
+}

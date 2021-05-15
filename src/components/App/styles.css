@@ -1,0 +1,11 @@
+.App {
+  height: 100vh;
+  background-color: #61dafb;
+}
+
+.lanes-container {
+  height: 100%;
+  overflow: auto;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
